@@ -1,0 +1,10 @@
+div{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkgray;
+    background-color: black;
+    padding: 10px;
+    width: 60%;
+    margin: 20px;
+    border: 2px solid red;
+    border-radius: 50px;
+}
