@@ -1,10 +1,20 @@
-div{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: darkgray;
-    background-color: black;
-    padding: 10px;
-    width: 60%;
-    margin: 20px;
-    border: 2px solid red;
-    border-radius: 50px;
-}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+    .custoom-button{
+        font-size: 20px;
+        font-weight: 700;
+        color: rgba(255, 0, 0, 0.7);
+        padding: 15px 45px;
+        background-color: transparent;
+        background-size: 0%;
+        background-image: -o-linear-gradient(to right, #ED4264, #FFEDBC);
+        border: 5px solid blueviolet;
+        border-radius: 5px;
+        transition: all 0.5s ease;
+    }
+    .custoom-button:hover{
+        background-size: 100%;
+        color: rgb(255, 255, 255);
+    }
